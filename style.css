@@ -1,0 +1,80 @@
+body {
+  margin: none;
+  background-image: linear-gradient(
+    to right top,
+    #4ba5a2,
+    #4fa9a6,
+    #53ada9,
+    #56b1ad,
+    #5ab5b1,
+    #5fbbb7,
+    #64c2bc,
+    #69c8c2,
+    #71d2cb,
+    #78dbd5,
+    #80e5de,
+    #88efe8
+  );
+  height: 98vh;
+  display: flex;
+  justify-content: center;
+}
+
+.trafficLightContainer {
+  border: 5px solid black;
+  background-color: #2d9995;
+  padding: 12px;
+  border-radius: 15px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.trafficLightContainer button {
+  width: 76px;
+  border: 2px solid black;
+  background-color: #86ded8;
+  padding: 12px;
+  border-radius: 4px;
+  margin: 0 6px;
+  font-size: 15px;
+}
+
+.lightBtns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6px;
+}
+
+.trafficLight {
+  padding: 10px 40px;
+  width: 100px;
+  margin: 12px;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.trafficLight div {
+  height: 100px;
+  border: 2px solid gray;
+  border-radius: 50%;
+  margin: 20px 0;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.gray {
+  background-color: gray;
+}
